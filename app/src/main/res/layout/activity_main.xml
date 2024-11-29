@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackIT!"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="top" />
+
+    <ImageView
+        android:id="@+id/ivIllustration"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/images"
+        android:contentDescription="Illustration"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="  Email Address"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_black_login"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border_black_login"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00FFFF"/>
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+
+    <TextView
+        android:id="@+id/tvForgotPassword_1"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="Nguyễn Văn Thắng-22115053122338"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
